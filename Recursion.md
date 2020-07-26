@@ -17,3 +17,5 @@ Recursive functions are hard to debug.
 What is the time complexity of recursive functions?
 
 The time complexity, in Big O notation, for each function, is in numerical order: The first function is being called recursively n times before reaching base case so its O(n) (linear time).
+
+It shows up a lot and many functions built into python are recursive, including algorithms!
