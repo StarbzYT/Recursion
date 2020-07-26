@@ -7,12 +7,12 @@ from random import choice
 
 
 def showering():
-    return "I'm showering!"
+    print("I'm showering!")
 
 
 def eat_breakfast():
     meal = cook_food()  # calls another function that is added to the top of the callstack once this func is reached
-    return f"Eating {meal}!"
+    print(f"Eating {meal}!")
 
 
 def cook_food():
