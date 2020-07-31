@@ -40,3 +40,15 @@ Where things go wrong!
    - in other words, your recursive function does not end! (exceeds call stack)
 
 Either way, make sure your recursive function does not exceed the call stack. Have a base case!
+
+Helper Method Recursion
+
+Most times, recursion problems are difficult to wrap your head around. In that case, it is easier to add a helper function. Of course, this is not mandatory, but it allows for more clarity especially with more diifcult problems. Include a pattern that has a parent function that is not recursive, but has a helper function inside that is.
+
+Pure Recursion Tips
+
+- For arrays/lists, use methods that make copies of arrays/lists so you do not mutate them.
+
+- Remember that strings are immutable, so you will need to use methods to make copies of strings.
+
+END
